@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url(../fonts/Montserrat-VF.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Montserrat Italic';
+	src: url(../fonts/Montserrat-Italic-VF.woff2) format('woff2');
+}
+
+
+.body {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+}
+
+.frame {
+	background: url("../images/logo.jpg") no-repeat fixed;
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+}
+.contain {
+
+	font-family: 'Montserrat';
+	font-size: 80px;
+	color: gray;
+
+}
+.bodytext {
+	font-family: 'Montserrat Italic';
+	font-size:35px;
+	text-indent: 15px;
+	color: gray;
+
+
+}
+.link {
+	font-family: Ariel;
+	font-size: 25px	text-align: center;
+	color: #6b6b6b;
+	letter-spacing: 0.1px;
+	margin-top: 60px;
+	border: solid 2px #939393;
+	width: 320px;
+	line-height: 24px;
+	padding: 10px 0 0px 0;
+	text-decoration: none;
+	margin-top: 25px;
+}
