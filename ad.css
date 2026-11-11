@@ -13,8 +13,12 @@
 	display: flex;
 	width: 100vw;
 	height: 100vh; 
-	background: url("../images/logo.jpg") no-repeat;
 }
+.frame {
+	background: url("../images/logo.jpg") no-repeat fixed;
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
 
 .contain {
 
